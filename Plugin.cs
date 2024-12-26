@@ -58,8 +58,8 @@ namespace CustomCommands
 
 public class EmptyConfig : Exiled.API.Interfaces.IConfig
 {
-    public bool IsEnabled { get; set; } = true; // Required by Exiled
-    public bool Debug { get; set; } = false;    // Added Debug property
+    public bool IsEnabled { get; set; } = true; 
+    public bool Debug { get; set; } = false;   
 }
 
 
